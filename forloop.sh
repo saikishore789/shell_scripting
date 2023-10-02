@@ -1,5 +1,5 @@
 echo -n "Enter the Total numbers :"
-read n 
+read n
 echo "Enter numbers:"
 i=0 
   
