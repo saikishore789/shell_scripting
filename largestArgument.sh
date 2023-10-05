@@ -8,15 +8,15 @@ fi
   
 #Initialize maxEle with  
 #the first argument 
-maxEle=$1 
+largest_num=$1 
   
 #Loop that compares maxEle with the  
 #passed arguments and updates it 
-for arg in "$@"
+for i in "$@"
 do
-    if [ "$arg" -gt "$maxEle" ] 
+    if [ "$i" -gt "$largest_num" ] 
     then
-        maxEle=$arg 
+        largest_num=$i
     fi
 done
-echo "Largest value among the arguments passed is: $maxEle"
+echo "Largest value among the arguments passed is: $largest_num"
